@@ -31,11 +31,8 @@ python manage.py runserver
 ```
 
 # 4. Test endpoints
-Similarity between two users:
-Example: http://127.0.0.1:8000/api/similarity/?user1=TomVasel&user2=rahdo
+Similarity between two users example: http://127.0.0.1:8000/api/similarity/?user1=TomVasel&user2=rahdo
 
-Top similar users
-Example: http://127.0.0.1:8000/api/similar-users/?username=ZeeGarcia
+Top similar users example: http://127.0.0.1:8000/api/similar-users/?username=ZeeGarcia
 
-Sanity check if we don't provide user1/user2
-http://127.0.0.1:8000/api/similarity/
+Sanity check if we don't provide user1/user2: http://127.0.0.1:8000/api/similarity/
