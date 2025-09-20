@@ -32,7 +32,7 @@ python manage.py runserver
 Similarity between two users (modify the =[user1] and =[user2] using REAL usernames from boardgamegeek):
 http://127.0.0.1:8000/api/similarity/?user1=[user1]&user2=[user2]
 
-Top similar users (modify the =[user1] using REAL usernames from boardgamegeek)
+Top similar users (modify the =[user1] using REAL usernames from boardgamegeek):
 http://127.0.0.1:8000/api/similar-users/?username=[user1]
 
 # 4. Test endpoints
