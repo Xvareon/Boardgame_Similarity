@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+# Method for fetching games
 def fetch_top_100_games():
     # Fetch top 100 BGG games (IDs + names) across multiple pages. Returns a list of tuples: (game_id, game_name)
     top_100_games = []
@@ -26,6 +27,7 @@ def fetch_top_100_games():
 
     return top_100_games
 
+# Run this script to fetch games
 if __name__ == "__main__":
     top_100 = fetch_top_100_games()
 

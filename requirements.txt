@@ -1,0 +1,4 @@
+djangorestframework
+numpy
+requests
+beautifulsoup4
