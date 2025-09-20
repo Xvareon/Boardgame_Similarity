@@ -1,0 +1,6 @@
+- boardgamegeek2 library does not work with the latest python, its requests_cache.core is deprecated.
+- We scrape the data from the website itself instead.
+- Users exist on BoardGameGeek and have at least some rated games.
+- If a game is not rated by a user, treat it as 0 or ignore it in similarity calculation.
+- Only consider the first 100 games in the pages fetched by rating to limit computation.
+- Similarity is based purely on ratings, not play count or other metadata.
