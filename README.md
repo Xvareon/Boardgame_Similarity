@@ -11,9 +11,18 @@ git clone https://github.com/Xvareon/Boardgame_Similarity.git
 ```
 
 # 2. Packages installation
+Set up the virtual environment
+```
 python -m venv venv
+```
+Activate the venv
+```
 source venv/Scripts/activate
+```
+Install the python packages
+```
 pip install -r requirements.txt
+```
 
 # 3. Getting the output
 Run
