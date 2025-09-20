@@ -29,6 +29,11 @@ Run
 ```
 python manage.py runserver
 ```
+Similarity between two users (modify the =[user1] and =[user2] using REAL usernames from boardgamegeek):
+http://127.0.0.1:8000/api/similarity/?user1=[user1]&user2=[user2]
+
+Top similar users (modify the =[user1] using REAL usernames from boardgamegeek)
+http://127.0.0.1:8000/api/similar-users/?username=[user1]
 
 # 4. Test endpoints
 Similarity between two users example: http://127.0.0.1:8000/api/similarity/?user1=TomVasel&user2=rahdo
@@ -41,3 +46,9 @@ Top similar users example: http://127.0.0.1:8000/api/similar-users/?username=Zee
 
 Sanity check if we don't provide user1/user2: http://127.0.0.1:8000/api/similarity/
 <img width="1481" height="503" alt="image" src="https://github.com/user-attachments/assets/90a8fade-4a42-4251-8670-bb365e40fa50" />
+
+# 5. Run automated tests:
+Run
+```
+python manage.py test -v 2
+```
